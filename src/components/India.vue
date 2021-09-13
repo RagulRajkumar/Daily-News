@@ -22,7 +22,8 @@ import { NCard } from 'naive-ui'
 export default {
     name:'India',
   components: {
-      NCard
+      NCard,
+
     },
   data:function(){
     return{
