@@ -31,16 +31,9 @@ export default {
     }
   },
    mounted: function () {
-     var that = this;
-    var url =
-     'https://newsapi.org/v2/top-headlines?country=in&apiKey=bc5746cbe5684c1c8462272addb6fc6c';
-
-    var req = new Request(url);
-
-    fetch(req).then(function (response) {
-      return response.json();
-    })
-    .then(function(data){
+     fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey=bc5746cbe5684c1c8462272addb6fc6c')
+     .then(res => (res.json()))
+     .then(function(data){
       console.log(data);
       that.articles = data.articles;
     });
