@@ -31,7 +31,9 @@ export default {
     }
   },
    mounted: function () {
-     fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey=bc5746cbe5684c1c8462272addb6fc6c')
+const API_KEY = process.env.API_KEY;
+
+     fetch( `https://newsapi.org/v2/everything?q=Trending&sortBy=publishedAt&apiKey=${API_KEY}`)
      .then(res => (res.json()))
      .then(function(data){
       console.log(data);
