@@ -33,7 +33,7 @@ export default {
    mounted: function () {
      var that = this;
     var url =
-     'https://newsapi.org/v2/top-headlines?country=in&apiKey=3ee26f40f19147938b15e9662e597ea9';
+     'https://newsapi.org/v2/top-headlines?country=in&apiKey=bc5746cbe5684c1c8462272addb6fc6c';
 
     var req = new Request(url);
 
