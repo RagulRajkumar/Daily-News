@@ -35,7 +35,7 @@ export default {
      .then(res => (res.json()))
      .then(function(data){
       console.log(data);
-      that.articles = data.articles;
+      this.articles = data.articles;
     });
   },
 };
