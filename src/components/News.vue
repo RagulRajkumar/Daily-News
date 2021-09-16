@@ -67,5 +67,15 @@ export default {
   margin: 10px;
   font-size: 10rem;
 }
+.n-card {
+  width: 280px;
+  margin: 20px;
+  height: 330px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image{
+  height: 200px;
+}
 
 </style>

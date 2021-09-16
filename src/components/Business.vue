@@ -62,13 +62,5 @@ export default {
   background-color: #ffffff;  
   overflow-y: scroll;
 }
-.n-card {
-  width: 250px;
-  margin: 30px;
-  height: 300px;
-  cursor: pointer;
-}
-.image{
-  height: 200px;
-}
+
 </style>
