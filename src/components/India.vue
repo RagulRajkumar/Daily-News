@@ -18,6 +18,7 @@
 
 <script>
 import { NCard } from 'naive-ui'
+//import axios from 'axios'
 
 export default {
     name:'India',
@@ -31,13 +32,18 @@ export default {
     }
   },
    mounted: function () {
-const API_KEY = process.env.API_KEY;
+     var that = this;
+    var url =
+     'https://saurav.tech/NewsAPI/everything/cnn.json';
 
-     fetch( `https://newsapi.org/v2/everything?q=Trending&sortBy=publishedAt&apiKey=${API_KEY}`)
-     .then(res => (res.json()))
-     .then(function(data){
+    var req = new Request(url);
+
+    fetch(req).then(function (response) {
+      return response.json();
+    })
+    .then(function(data){
       console.log(data);
-      this.articles = data.articles;
+      that.articles = data.articles;
     });
   },
 };
