@@ -1,6 +1,5 @@
 <template>
 <div class="footer">
-  An Indian News App
     <h3 style="color:#ffffff">Developed By <a href="https://www.linkedin.com/in/ragul-rajkumar-4b7246195" target="_blank" style="text-decoration: none;color: #ffffff;">Ragul Rajkumar</a></h3>
 </div>
 </template>

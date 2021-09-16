@@ -32,7 +32,7 @@ export default {
    mounted: function () {
      var that = this;
     var url =
-     'https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=3ee26f40f19147938b15e9662e597ea9';
+     'https://saurav.tech/NewsAPI/top-headlines/category/technology/in.json';
 
     var req = new Request(url);
 
