@@ -1,7 +1,7 @@
 <template>
 <div class="new" id="new">
   <n-tabs type="line" class="tabs" style="margin-top:10px;">
-      <n-tab-pane name="trending" class="tab" tab="Trending in India">
+      <n-tab-pane name="trending" class="tab" tab="Trendings">
         <India/>
       </n-tab-pane>
       <n-tab-pane name="tech" class="tab" tab="Technology">
