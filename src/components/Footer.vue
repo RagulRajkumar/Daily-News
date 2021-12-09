@@ -1,6 +1,6 @@
 <template>
 <div class="footer">
-    <h3 style="color:#ffffff">Developed By Sukesh</h3>
+    <h3 style="color:#ffffff">Developed By <a href="https://www.linkedin.com/in/ragul-rajkumar-4b7246195/">Ragul Rajkumar</a></h3>
 </div>
 </template>
 <script>
